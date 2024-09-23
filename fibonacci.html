@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>weby3</title>
+    </head>
+    <script type = "text/javascript">
+        var fib1 =0, fib2=1 ,fib  =0;
+        var num = prompt("enter the number", "");
+        if(num!= null&&num>=0)
+        {
+            document.write("THE  <h1> first \t" +num+ "\t fibonacci numbers are: </h1> <br/>");
+            if(num ==1)
+            document.write("<h1>" +fib1 +"</h1>")
+            else 
+            document.write("<h1>" +fib1+ "<br>" +fib2+ "</h1>");
+        for(var i=3; i<num;i++)
+        {
+         fib = fib1 +fib2;
+         document.write("<h1>" +fib+ "</h1>");
+         fib1 = fib2 ;
+         fib2= fib;
+        }
+        }
+        else("invalid input");
+
+    </script>
+</html>

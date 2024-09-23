@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>squaresncubes</title>
+        <style>
+        table,tr,td
+        {
+            border:solid black;
+            text-align:center;
+            width:33%;
+            border-collapse: collapse;
+            background-color:aquamarine;
+
+        }
+        table{margins:auto;}
+        </style>
+        <script>
+            document.write("<tr><table><th colspan= '3'>NUMBERS RANGING FROM 0 TO 10 WITH THEIR SQUARES AND CUBES</tr></th>");
+                document.write("<tr><td>NUMBERS</td><td>SQUARES</td><td>CUBES</td></tr>");
+                for(var n =0; n<=10;n++){
+                    document.write("<tr><td>"+n+"</td><td>" +n*n+"</td><td>"+n*n*n+ "</td></tr>"); }
+                    document.write("</table>");
+                
+        </script>
+    </head>
+</html>

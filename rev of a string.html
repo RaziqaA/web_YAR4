@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rev</title>
+    </head><body>
+    <script type  = "text/javascript">
+        var str = prompt("enter the input of a string", "");
+        if(!(isNaN(str)))
+        {
+            var num ,rev =0 , remainder ;
+            num = parseInt(str);
+            while(num!=0)
+            {
+                remainder = num%10;
+                num = parseInt(num/10);
+                rev = rev*10 + remainder;
+            }
+            alert("the rev of "+str+" is " + rev);
+        }
+    </script>"</body>
+</html>

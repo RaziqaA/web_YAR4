@@ -1,0 +1,5 @@
+<!doctype html><html>
+<head>
+    <title>javascrip</title>
+    <div = "alert('Hello world')">clickme</div>
+</head></html>

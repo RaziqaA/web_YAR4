@@ -1,0 +1,8 @@
+('1' , 'SYEDA RAZIQA', 'F',' RAZ@','CSE', 'MYSORE' , 2000000),
+('2', 'MISBA', 'F', 'MISSI@' ,'Commerce', 'BANGLORE' , 20000),
+('3' , 'SYED AFNAN','M','AFFU@', 'Commerce', 'BANGLORE' , 2000000),
+('4',   'SYED ADNAN' , 'M' ,'ADDU@','ECE''BANGLORE', 15000000),
+('5',  'SYED MOIN'  ,  'M' ,'MOIN@','2PCMC', 'MYSORE' , 300000),
+('6',  'SYEDA RUQAIYA'  , 'F' ,'RUQ@', '10STD', 'MYSORE' , 700000),
+('7' , 'FARHEEN FATIMA' , 'F', 'FAR@', '5STD',BANGLORE' , 8000),
+('8' , 'TASNEEM FATHIMA ,  'F','TAS@,''2PCMB',  ' BANGLORE ' 500000); 

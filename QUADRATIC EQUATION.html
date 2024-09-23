@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>QUAD</title>
+    </head>
+    <body>
+        <h1>JAVASCRIPT PROGRAM FOR QUADRATIC EQUATION</h1>
+        <h2>THE QUADRATIC EQUATION IS: ax<sup>2</sup>+bx+c</h2>
+        <input type = "Button" value = "Find root" onclick = "func()">
+        <script>
+            function func(){
+                let a = prompt("enter the value of a", "");
+                let b = prompt("enter the value of b", "");
+                let c = prompt("enter the value of c", "");
+                let d = b*b-4*a*c;
+                let x= (-b+(Math.sqrt(d)/2));
+                let y= (-b+(Math.sqrt(d)/2));
+                alert("your first root is " +x);
+                alert("your second root is "+y);
+            }
+        </script>
+    </body>
+</html>
